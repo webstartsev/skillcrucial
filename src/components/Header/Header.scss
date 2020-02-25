@@ -1,0 +1,9 @@
+@import '~Components/Logo/Logo';
+@import '~Components/Menu/Menu';
+
+.Header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}

@@ -1,0 +1,53 @@
+/**
+* Breakpoints 
+*/
+$xs: 375px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1280px;
+
+$xs_down: $xs - 1px;
+$sm_down: $sm - 1px;
+$md_down: $md - 1px;
+$lg_down: $lg - 1px;
+$xl_down: $xl - 1px;
+
+/**
+* Typeography 
+*/
+$fz_default: 10px;
+$fz_text: 1.6rem;
+
+$fz_heading_lg: 5.4rem;
+$fz_heading_md: 3.2rem;
+$fz_heading_sm: 2.4rem;
+$fw_default: 400;
+
+$ff_main: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+  Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+$ff_accent: 'Roboto', sans-serif;
+
+$line-height: 1.25;
+
+/**
+* Colors 
+*/
+$color_text: #3b3e43;
+$color_text_faded: rgba(#3b3e43, 0.5);
+$color_accent_1: #fff;
+$color_title: #234e52;
+$color_sub_title: #6b4a1a;
+$color_link: #6b4a1a;
+$color_button: #6b4a1a;
+$color_white: #fff;
+$color_note: #ebd2ad;
+$color_bg: #fff;
+
+$transition_default_timing: 0.3s;
+
+/**
+* Indent 
+*/
+$section_indent: 70px;
+$title_indent: 40px;

@@ -1,0 +1,22 @@
+.Button {
+  padding: 10px 20px;
+  color: #333;
+  border: 1px solid #ddd;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.Button_action {
+  background: $color_button;
+  color: #fff;
+  border: 1px solid darken($color: $color_button, $amount: 10);
+  &:hover {
+    background: darken($color: $color_button, $amount: 10);
+  }
+  &:active {
+    background: darken($color: $color_button, $amount: 20);
+  }
+}

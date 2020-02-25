@@ -1,0 +1,11 @@
+.Logo-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.Logo-text {
+  color: $color_title;
+  font-weight: bold;
+  font-size: 3rem;
+}

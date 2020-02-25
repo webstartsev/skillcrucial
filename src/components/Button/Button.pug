@@ -1,0 +1,7 @@
+mixin Button(type, text, link)
+  if type == 'link' 
+    +b.Button(class!=attributes.class href=link)= text
+  else if type == 'submit' 
+    +b.INPUT.Button(class!=attributes.class type="submit")= text
+  else 
+    +b.BUTTON(class!=attributes.class)=text

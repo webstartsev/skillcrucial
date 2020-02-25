@@ -1,0 +1,16 @@
+.Menu-list {
+  @include list-reset;
+  display: flex;
+}
+
+.Menu-link {
+  color: $color_link;
+}
+
+.Menu-item {
+  font-weight: bold;
+  font-size: 1.8rem;
+  &:not(:last-of-type) {
+    margin-right: 5rem;
+  }
+}
