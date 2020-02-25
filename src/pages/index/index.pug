@@ -4,6 +4,7 @@ include ../../components/Banner/Banner.pug
 include ../../components/Slider/Slider.pug
 include ../../components/Progress/Progress.pug
 include ../../components/Goals/Goals.pug
+include ../../components/WhyWe/WhyWe.pug
 
 block content
   +Banner()
@@ -20,3 +21,9 @@ block content
           +e.subtitle Видение
           +e.H3.title Наша цель
         +Goals()
+      +e.item
+        +e.header
+          +e.subtitle Чек-лист
+          +e.H3.title Почему мы
+        +WhyWe()
+
