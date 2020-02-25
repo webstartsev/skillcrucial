@@ -141,8 +141,20 @@ const config = {
         ]
       },
       {
-        test: /\.(webp|svg|png|jpg|gif|otf|ttf|woff|woff2)$/,
+        test: /\.(webp|svg|png|jpg|gif)$/,
         use: fileLoaderChain
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/'
+            }
+          }
+        ]
       },
       {
         test: /\.svg$/,
