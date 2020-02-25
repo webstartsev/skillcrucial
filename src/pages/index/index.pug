@@ -3,11 +3,20 @@ extends ../layout.pug
 include ../../components/Banner/Banner.pug
 include ../../components/Slider/Slider.pug
 include ../../components/Progress/Progress.pug
+include ../../components/Goals/Goals.pug
 
 block content
   +Banner()
   +Slider()
   +e.section
-    +b.row
+    +Row()
       +e.item
+        +e.header
+          +e.subtitle Статистика
+          +e.H3.title Прогресс
         +Progress()
+      +e.item
+        +e.header
+          +e.subtitle Видение
+          +e.H3.title Наша цель
+        +Goals()

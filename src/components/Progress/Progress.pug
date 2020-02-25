@@ -2,9 +2,6 @@ include ./ProgressItem/ProgressItem.pug
 
 mixin Progress()
   +b.Progress
-    +e.header
-      +e.subtitle Статистика
-      +e.title Прогресс
     +e.content
       +ProgressItem(`Студенты`, 722)
       +ProgressItem(`Минимальный возраст студентов`, 14)
