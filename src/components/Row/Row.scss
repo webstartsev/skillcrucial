@@ -1,0 +1,20 @@
+.Row {
+  display: flex;
+  margin: 0 -2rem;
+}
+.Row-item {
+  flex-grow: 1;
+  width: 100%;
+  padding: 0 2rem;
+}
+.Row-subtitle {
+  color: $color_subtitle;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.Row-title {
+  color: $color_title;
+  margin: 0 0 2rem 0;
+  font-size: 4rem;
+}

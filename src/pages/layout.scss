@@ -2,6 +2,7 @@
 @import '~Components/Header/Header';
 @import '~Components/Footer/Footer';
 @import '~Components/Button/Button';
+@import '~Components/Row/Row';
 
 .page {
   display: flex;
@@ -70,14 +71,6 @@
   margin-bottom: 6rem;
 }
 
-.row {
-  display: flex;
-  margin: 0 -2rem;
-}
-.row-item {
-  flex-grow: 1;
-  padding: 0 2rem;
-}
 .page-section {
   padding: 0 4rem;
 }
