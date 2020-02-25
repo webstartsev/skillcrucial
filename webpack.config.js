@@ -59,7 +59,8 @@ const config = {
       '@': path.resolve(__dirname, 'src'),
       assets: path.resolve(__dirname, 'src/assets/'),
       public: path.resolve(__dirname, 'public/'),
-      dist: path.resolve(__dirname, 'dist')
+      dist: path.resolve(__dirname, 'dist'),
+      node_modules: path.resolve(__dirname, 'node_modules/')
     }
   },
   // optimization: {
