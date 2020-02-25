@@ -1,0 +1,15 @@
+@import '~swiper/src/swiper';
+@import './SliderItem/SliderItem';
+
+.Slider {
+  width: 100%;
+}
+
+.SliderItem {
+  padding: 0 4rem;
+  box-sizing: border-box;
+}
+
+.SliderItem-text:not(:last-of-type) {
+  margin-bottom: 2rem;
+}

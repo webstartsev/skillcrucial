@@ -1,0 +1,26 @@
+.SliderItem {
+  display: flex;
+}
+.SliderItem-left,
+.SliderItem-right {
+  width: 100%;
+}
+.SliderItem-right {
+  text-align: right;
+}
+
+.SliderItem-subtitle {
+  margin: 0 0 0.5rem;
+  color: $color_subtitle;
+  font-size: 2.2rem;
+}
+.SliderItem-title {
+  margin: 0 0 2rem;
+  color: $color_title;
+  font-size: 4rem;
+}
+
+.SliderItem-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
