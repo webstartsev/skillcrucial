@@ -70,6 +70,18 @@
   margin-bottom: 6rem;
 }
 
+.row {
+  display: flex;
+  margin: 0 -2rem;
+}
+.row-item {
+  flex-grow: 1;
+  padding: 0 2rem;
+}
+.page-section {
+  padding: 0 4rem;
+}
+
 @media screen and (max-width: 1280px) {
   html {
     font-size: 9px;
