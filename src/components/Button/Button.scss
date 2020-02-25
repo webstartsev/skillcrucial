@@ -1,22 +1,37 @@
 .Button {
-  padding: 10px 20px;
-  color: #333;
+  padding: 1rem 2rem;
+  color: $color_text;
   border: 1px solid #ddd;
   display: inline-block;
   cursor: pointer;
   text-align: center;
+
   &:hover {
     text-decoration: none;
   }
 }
+.Button_size_lg {
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+}
+.Button_icon_right {
+  .fa {
+    padding-left: 2rem;
+  }
+}
+.Button_icon_left {
+  .fa {
+    padding-right: 2rem;
+  }
+}
 .Button_action {
   background: $color_button;
-  color: #fff;
-  border: 1px solid darken($color: $color_button, $amount: 10);
+  color: $color_white;
+  border: 1px solid darken($color: $color_button, $amount: 5);
   &:hover {
-    background: darken($color: $color_button, $amount: 10);
+    background: darken($color: $color_button, $amount: 5);
   }
   &:active {
-    background: darken($color: $color_button, $amount: 20);
+    background: darken($color: $color_button, $amount: 10);
   }
 }

@@ -1,6 +1,8 @@
-mixin Button(type, text, link)
+mixin Button(type, text, link, iconClass)
   if type == 'link' 
     +b.Button(class!=attributes.class href=link)= text
+      if iconClass
+        +b.I.fa(class=iconClass)
   else if type == 'submit' 
     +b.INPUT.Button(class!=attributes.class type="submit")= text
   else 
