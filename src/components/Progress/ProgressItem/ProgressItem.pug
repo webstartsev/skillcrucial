@@ -2,5 +2,6 @@ mixin ProgressItem(title, count)
   +b.ProgressItem
     +e.progress
       +e.bar(data-width=count)
-    +e.title= title
-    +e.count= count
+    +e.bottom
+      +e.title= title
+      +e.count= count
