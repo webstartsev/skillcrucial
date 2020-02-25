@@ -11,6 +11,7 @@
     "create::page": "node ./build/createPage.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "normalize.css": "^7.0.0",
     "swiper": "^4.4.6"
   },
