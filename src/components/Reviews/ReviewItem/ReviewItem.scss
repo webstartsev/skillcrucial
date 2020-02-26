@@ -1,0 +1,26 @@
+.ReviewItem {
+  opacity: 0 !important;
+  &.swiper-slide-active {
+    opacity: 1 !important;
+  }
+}
+
+.ReviewItem-wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.ReviewItem-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.ReviewItem-person {
+  font-size: 2rem;
+  color: $color_note;
+  &:before {
+    content: '-';
+    margin-right: 1rem;
+  }
+}

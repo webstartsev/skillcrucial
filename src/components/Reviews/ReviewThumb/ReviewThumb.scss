@@ -1,0 +1,12 @@
+div.ReviewThumb {
+  opacity: 0.4;
+  background-size: cover;
+
+  &.swiper-slide-thumb-active {
+    opacity: 1;
+  }
+}
+
+.ReviewThumb-img {
+  display: block;
+}

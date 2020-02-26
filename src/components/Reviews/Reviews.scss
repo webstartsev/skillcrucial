@@ -1,0 +1,23 @@
+@import './ReviewItem/ReviewItem';
+@import './ReviewThumb/ReviewThumb';
+
+.Reviews {
+  color: $color_white;
+  text-align: center;
+  background: #0a0a0a;
+  padding: 10rem 0 10rem 0;
+}
+.Reviews-content {
+  margin-bottom: 2rem;
+}
+.Reviews-title {
+  font-size: 4rem;
+  margin: 0 0 2rem 0;
+}
+div.Reviews-pagination {
+  position: relative;
+}
+.Reviews-thumbsWrap {
+  display: flex;
+  justify-content: center;
+}
