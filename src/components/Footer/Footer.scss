@@ -1,6 +1,7 @@
 @import '../About/About';
 @import '../Social/Social';
 @import '../Contacts/Contacts';
+@import '../Langs/Langs';
 
 .Footer {
   background-color: #3b3e43;
@@ -25,4 +26,8 @@
       margin-top: 1.5rem;
     }
   }
+}
+.Footer-bottom {
+  background: #2b2e31;
+  padding: 3rem 0;
 }

@@ -1,6 +1,7 @@
 include ../About/About.pug
 include ../Social/Social.pug
 include ../Contacts/Contacts.pug
+include ../Langs/Langs.pug
 
 mixin Footer()
   +b.Footer
@@ -19,3 +20,5 @@ mixin Footer()
             +e.header
               +e.title Контакты
             +Contacts()
+    +e.bottom
+      +Langs()
