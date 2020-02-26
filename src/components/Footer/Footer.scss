@@ -1,0 +1,28 @@
+@import '../About/About';
+@import '../Social/Social';
+@import '../Contacts/Contacts';
+
+.Footer {
+  background-color: #3b3e43;
+  color: $color_footer;
+}
+.Footer-wrap {
+  padding: 10rem 0;
+}
+.Footer-section {
+  box-sizing: border-box;
+  .Row {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Row-title {
+    color: $color_footer;
+    &:after {
+      content: '';
+      border-bottom: 2px solid #ebd2ad;
+      display: block;
+      width: 10rem;
+      margin-top: 1.5rem;
+    }
+  }
+}

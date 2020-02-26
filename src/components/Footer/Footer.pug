@@ -1,3 +1,21 @@
+include ../About/About.pug
+include ../Social/Social.pug
+include ../Contacts/Contacts.pug
+
 mixin Footer()
   +b.Footer
     +e.wrap
+      +e.section
+        +Row()
+          +e.item
+            +e.header
+              +e.title О SkillCrucial
+            +About()
+          +e.item
+            +e.header
+              +e.title Следите за нами
+            +Social()
+          +e.item
+            +e.header
+              +e.title Контакты
+            +Contacts()
