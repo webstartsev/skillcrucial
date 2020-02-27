@@ -6,6 +6,9 @@
   text-align: center;
   background: #0a0a0a;
   padding: 10rem 0 10rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .Reviews-content {
   margin-bottom: 2rem;

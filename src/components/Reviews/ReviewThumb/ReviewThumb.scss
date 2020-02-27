@@ -1,6 +1,7 @@
 div.ReviewThumb {
   opacity: 0.4;
   background-size: cover;
+  padding: 0 0.5rem;
 
   &.swiper-slide-thumb-active {
     opacity: 1;

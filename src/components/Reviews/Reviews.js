@@ -1,7 +1,7 @@
 import Swiper from 'swiper';
 
 const reviewThumbs = new Swiper('.Reviews-thumbs', {
-  slidesPerView: 2,
+  slidesPerView: document.querySelectorAll(`.ReviewThumb`).length,
   simulateTouch: false,
   freeMode: true,
   watchSlidesVisibility: true,
