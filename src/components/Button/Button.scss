@@ -9,19 +9,25 @@
   &:hover {
     text-decoration: none;
   }
+
+  svg {
+    width: 1.6rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 .Button_size_lg {
   font-size: 2rem;
   padding: 1.5rem 3rem;
 }
 .Button_icon_right {
-  .fa {
-    padding-left: 2rem;
+  svg {
+    margin-left: 3rem;
   }
 }
 .Button_icon_left {
-  .fa {
-    padding-right: 2rem;
+  svg {
+    padding-right: 3rem;
   }
 }
 .Button_action {
