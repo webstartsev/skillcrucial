@@ -1,0 +1,6 @@
+mixin Theme(title, list)
+  +b.Theme
+    +e.title= title
+    +e.UL.list
+      for item in list
+        +e.LI.item= item

@@ -1,0 +1,36 @@
+@import '../Theme/Theme';
+
+.CoursesItem {
+  position: relative;
+  color: $color_white;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.CoursesItem-wrap {
+  padding: 8rem 0;
+}
+.CoursesItem-header {
+  text-align: center;
+}
+.CoursesItem-title {
+  margin: 0 0 4rem 0;
+  font-size: 4rem;
+}
+.CoursesItem-subtitle {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.CoursesItem-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CoursesItem-header {
+  margin-bottom: 4rem;
+}
+.CoursesItem-action {
+  text-align: center;
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,18 @@
+include ../Theme/Theme
+
+mixin CoursesItem(title, begin, langs, education, themes, isButton = false)
+  +b.CoursesItem
+    block
+    +e.wrap
+      +e.header
+        +e.H2.title= title
+        +e.subtitle= begin
+        +e.subtitle= langs
+        +e.subtitle= education
+      if isButton
+        +e.action
+          +Button(`link`, `ЗАРЕГИСТРИРОВАТЬСЯ >>`, `mailto:info@skillcrucial.com?subject=React Course`, true)._action._size_lg._icon_right
+      +e.content
+        if themes
+          for theme in themes
+            +Theme(theme.title, theme.list)

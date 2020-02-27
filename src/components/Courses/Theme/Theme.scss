@@ -1,0 +1,20 @@
+.Theme {
+  margin-bottom: 2rem;
+  width: 33.3333%;
+}
+.Theme-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Theme-list {
+  list-style: none;
+}
+.Theme-item {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  &:before {
+    content: '-';
+    margin-right: 1rem;
+  }
+}
