@@ -1,4 +1,4 @@
 mixin Background(background)
-  +b.Background(style="background-image: url(../../assets/backgrounds/" + background + ");")&attributes(attributes)
+  +b.Background(style="background-image: url(${require('../../assets/backgrounds/" + background + "')});")&attributes(attributes)
     +e.wrap
       block
