@@ -1,0 +1,9 @@
+.Social-item {
+  display: inline-block;
+  margin-right: 2rem;
+  color: $color_footer;
+  transition: color 0.2s ease;
+  &:hover {
+    color: $color_white;
+  }
+}

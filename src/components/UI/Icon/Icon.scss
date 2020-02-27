@@ -1,24 +1,47 @@
 .Icon {
   display: inline-block;
   vertical-align: middle;
+  width: 1.9rem;
+  height: 1.9rem;
 }
 .Icon_arrow {
   background: url('../assets/img/icon/arrow-right-solid.svg');
   background-size: cover;
   background-position: no-repeat;
-  width: 1.9rem;
-  height: 1.9rem;
 }
 .Icon_check {
   background: url('../assets/img/icon/check-solid.svg');
   background-size: cover;
   background-position: no-repeat;
-  width: 1.9rem;
-  height: 1.9rem;
 }
+.Icon_twitter {
+  background: url('../assets/img/icon/social/twitter-brands.svg');
+  background-size: cover;
+  background-position: no-repeat;
+}
+.Icon_linkedin {
+  background: url('../assets/img/icon/social/linkedin-brands.svg');
+  background-size: cover;
+  background-position: no-repeat;
+}
+.Icon_medium {
+  background: url('../assets/img/icon/social/medium-brands.svg');
+  background-size: cover;
+  background-position: no-repeat;
+}
+.Icon_pinterest {
+  background: url('../assets/img/icon/social/pinterest-brands.svg');
+  background-size: cover;
+  background-position: no-repeat;
+}
+
 .Icon_pos_right {
   margin-left: 1rem;
 }
 .Icon_pos_left {
   margin-right: 1rem;
+}
+.Icon_size_lg {
+  width: 4rem;
+  height: 4rem;
 }
