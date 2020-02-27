@@ -1,0 +1,14 @@
+@import './FaqItem/FaqItem';
+
+.Faq {
+  padding: 0 4rem;
+  width: 100%;
+}
+.Faq-wrap {
+  margin-top: 8rem;
+}
+.Faq-title {
+  font-size: 4rem;
+  color: $color_white;
+  margin: 0 0 4rem;
+}
