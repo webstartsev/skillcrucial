@@ -1,11 +1,12 @@
 mixin Banner()
   +b.Banner
+    +Background(`bg.webp`)._absolute
     +e.wrap
       +e.content
         +e.title ВАШ ПУТЬ К ІТ-КАРЬЕРЕ
         +e.text
           +e.P В этом году компании открыли более 282 000 позиций в IT с начала года, что на на 65% больше по сравнению с тем же периодом 2018 года
           +e.P Начните свою карьеру сейчас как разработчик программного обеспечения с высококачественным образованием в IT, созданным для людей не из IT.
-        +Button(`link`, `Предстоящие курсы`, `course`, true)._action._size_lg._icon_right
+        +Button(`link`, `Предстоящие курсы`, `courses.html`, true)._action._size_lg._icon_right
           block icon
             include ../../assets/img/icon/arrow-right-solid.svg
