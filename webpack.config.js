@@ -169,7 +169,7 @@ const config = {
       {
         test: /\.pug$/,
         use: [
-          'html-loader',
+          'html-loader?interpolate',
           {
             loader: 'pug-html-loader',
             options: {
