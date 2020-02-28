@@ -4,10 +4,13 @@
   background-attachment: scroll;
   background-size: cover;
   background-blend-mode: multiply;
+  background-position: center;
 }
 .Background-wrap {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Background_absolute {
   position: absolute;
@@ -16,4 +19,9 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+.Background_initial {
+  background: none;
+  background-size: cover;
+  background-position: center;
 }
