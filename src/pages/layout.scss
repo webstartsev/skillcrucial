@@ -87,7 +87,23 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: $k4_down) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: $xxxl_down) and (max-width: $k4_down) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: $xxl_down) and (max-width: $xxxl_down) {
+  html {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: $xl_down) {
   html {
     font-size: 9px;
   }
