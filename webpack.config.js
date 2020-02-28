@@ -50,7 +50,7 @@ const config = {
   entry: entries,
   output: {
     filename: 'assets/js/[name].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   },
   resolve: {
     extensions: ['.js', '.scss', '.pug'],
@@ -189,10 +189,10 @@ const config = {
       new CopyWebpackPlugin([
         {
           from: path.resolve(__dirname, 'public'),
-          to: path.resolve(__dirname, 'dist')
+          to: path.resolve(__dirname, 'docs')
         }
       ]),
-    new CleanWebpackPlugin(['dist'])
+    new CleanWebpackPlugin(['docs'])
   ].filter(Boolean)
 };
 
