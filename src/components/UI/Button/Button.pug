@@ -1,9 +1,9 @@
 mixin Button(type, text, link, icon)
   if type == 'link' 
-    +b.Button(class!=attributes.class href=link)= text
+    +b.Button._link(class!=attributes.class href=link)= text
       if icon
         block icon
   else if type == 'submit' 
-    +b.INPUT.Button(class!=attributes.class type="submit")= text
+    +b.INPUT.Button(class!=attributes.class type="submit" value= text)
   else 
     +b.BUTTON(class!=attributes.class)=text

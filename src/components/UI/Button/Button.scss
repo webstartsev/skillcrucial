@@ -16,6 +16,13 @@
     vertical-align: middle;
   }
 }
+.Button_link {
+  border: none;
+  padding: 1rem 0;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 .Button_size_lg {
   font-size: 2rem;
   padding: 1.5rem 3rem;
