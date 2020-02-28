@@ -25,3 +25,9 @@ div.Reviews-pagination {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: $xs_down) {
+  .Reviews-wrap {
+    width: 100%;
+  }
+}

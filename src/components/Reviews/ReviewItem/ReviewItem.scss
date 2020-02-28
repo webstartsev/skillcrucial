@@ -24,3 +24,9 @@
     margin-right: 1rem;
   }
 }
+
+@media screen and (max-width: $sm_down) {
+  .ReviewItem-wrap {
+    width: 90%;
+  }
+}

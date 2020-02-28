@@ -29,3 +29,9 @@
     }
   }
 }
+
+@media screen and (max-width: $xl_down) {
+  .Banner-content {
+    max-width: 80%;
+  }
+}

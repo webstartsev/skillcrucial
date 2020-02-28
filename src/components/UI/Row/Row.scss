@@ -6,6 +6,7 @@
   flex-grow: 1;
   width: 100%;
   padding: 0 2rem;
+  box-sizing: border-box;
 }
 .Row-subtitle {
   color: $color_subtitle;
@@ -18,4 +19,13 @@
   margin: 0 0 2rem 0;
   font-size: 4rem;
   white-space: nowrap;
+}
+
+@media screen and (max-width: $md_down) {
+  .Row {
+    flex-direction: column;
+  }
+  .Row-item {
+    margin-bottom: 4rem;
+  }
 }

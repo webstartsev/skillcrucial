@@ -5,6 +5,7 @@
   width: 100%;
   position: relative;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 .Faq-wrap {
   margin-top: 8rem;
@@ -13,4 +14,10 @@
   font-size: 4rem;
   color: $color_white;
   margin: 0 0 4rem;
+}
+
+@media screen and (max-width: $sm_down) {
+  .Faq {
+    padding: 0 2rem;
+  }
 }

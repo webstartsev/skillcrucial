@@ -1,9 +1,27 @@
 @import '~Components/Logo/Logo';
 @import '~Components/Menu/Menu';
 
+.Header {
+  background: $color_white;
+}
 .Header-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem;
+}
+
+@media screen and (max-width: $sm_down) {
+  .Header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+@media screen and (max-width: $xs_down) {
+  .Header-wrap {
+    padding: 2rem;
+  }
 }

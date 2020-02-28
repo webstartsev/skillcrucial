@@ -18,3 +18,21 @@
     margin-right: 1rem;
   }
 }
+
+@media screen and (max-width: $md_down) {
+  .Theme {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: $sm_down) {
+  .Theme-list {
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: $xs_down) {
+  .Theme {
+    width: 100%;
+  }
+}

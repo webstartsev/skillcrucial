@@ -31,3 +31,11 @@
   background: #2b2e31;
   padding: 3rem 0;
 }
+
+@media screen and (max-width: $sm_down) {
+  .Footer-section {
+    .Row {
+      width: 100%;
+    }
+  }
+}

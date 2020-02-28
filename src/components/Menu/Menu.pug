@@ -1,3 +1,5 @@
+include ./MenuToggle/MenuToggle
+
 mixin Menu()
   +b.Menu
     +e.UL.list
@@ -9,3 +11,4 @@ mixin Menu()
         +e.A.link(href="courses.html") Курсы
       +e.LI.item  
         +e.A.link(href="login.html") Войти
+  +MenuToggle()

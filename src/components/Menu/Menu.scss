@@ -1,3 +1,8 @@
+@import './MenuToggle/MenuToggle';
+.Menu {
+  transition: all 0.3s ease;
+}
+
 .Menu-list {
   @include list-reset;
   display: flex;
@@ -13,5 +18,30 @@
   font-size: 1.8rem;
   &:not(:last-of-type) {
     margin-right: 5rem;
+  }
+}
+
+@media screen and (max-width: $sm_down) {
+  .Menu {
+    position: fixed;
+    left: -1000px;
+    background: #fff;
+    padding: 2rem 1rem;
+    opacity: 0;
+    z-index: 5;
+  }
+  .Menu-list {
+    justify-content: space-evenly;
+  }
+  .Menu_show {
+    opacity: 1;
+    left: 0;
+    right: 7rem;
+  }
+}
+
+@media screen and (max-width: $xs_down) {
+  .Menu-item:not(:last-of-type) {
+    margin-right: 2rem;
   }
 }
