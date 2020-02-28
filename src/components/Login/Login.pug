@@ -1,0 +1,13 @@
+mixin Login()
+  +b.Login
+    +e.wrap
+      +e.FORM.form
+        +e.group
+          +e.LABEL.title Логин или Email
+          +e.INPUT.input(type="text" placeholder="Ваш Логин") 
+        +e.group
+          +e.LABEL.title Пароль
+          +e.INPUT.input(type="text" placeholder="Ваш пароль")
+        +e.bottom
+          +Button(`submit`, `Войти`)._action
+          +Button(`link`, `Забыли пароль?`, `#`)
